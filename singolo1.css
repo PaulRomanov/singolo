@@ -1,0 +1,84 @@
+html {
+    font-size: 10px;
+    width: 1020px;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.navigation {
+    display: flex;
+    justify-content: flex-end;    /*выравнивание по правому краю*/
+    font-size: 12px;
+}
+.navigation li {
+    display: inline;              /*навигация в строку*/
+    padding-left: 30px; 
+}
+a {
+    text-decoration: none;            /* убираем подчеркивание и меняем цвет ссылок*/
+    color: snow;   
+}
+
+a:hover{
+    color: salmon;                  /*цвет ссылок при наведении*/
+}
+
+.color_star {
+    color: salmon;                /*цвет звездочки в лого*/                 
+}
+.header, .img_block, .footer {
+    overflow: hidden;              /* убирает границы цвета между блоками*/
+}
+.header {
+    background: #292d37;
+    color: snow;
+    padding: 0px 30px                /*отступы слева и с права*/
+}
+
+.img_block {
+    background: salmon;
+    padding: 40px 30px                /*отступы слева и с права*/
+    
+}
+.img_block {
+    display: flex;
+    align-items: center;                   /*выравнивание по вертикали*/
+    justify-content: space-between;        /*выравнивание по горизонтали*/
+}
+
+.footer {
+    background: rgb(238, 236, 236);
+    color: rgb(116, 131, 146);
+    padding: 20px 30px                /*отступы слева и с права*/
+    
+}
+h4, h2 {
+    font-weight: 900;
+}
+
+.layout-6-column {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tool { 
+    width: 299px;
+    height: 84px;
+    padding: 14px 8px 25px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+   
+    
+}
